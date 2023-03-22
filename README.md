@@ -1,7 +1,6 @@
 # Living-Shorelines-NewHampshire
-New Hampshire Living Shorelines Pilot Projects
 
-Runnels 
+Short-Term Recovery of Pilot Living Shoreline Projects in New Hampshire
 
 Date Last Updated: 3/22/2023
 
