@@ -634,7 +634,7 @@ rm(Nekton_subset, PW_subset, Veg_subset, RPI_CI, RPI_Final, rpi.bootstrap)
 #Page 1 - Chronosequence of unweighted RPI scores from the Bootstrap Analysis
   #After the Bootstrap Analysis, the RPI results were compiled in an Excel File
 
-RPI.results <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\RPI_CoreGroups_BootStrap_March23.csv")
+RPI.results <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\RPI_CoreGroups_BootStrap__PWcorrected_March23.csv")
 
 
 #Page 2 - Graph the Bootstrap Results of the Analysis
@@ -647,8 +647,8 @@ RPI.results <- RPI.results %>%
 
 
 
-RPI.bootstrap.figure <- ggplot(data = RPI.results, 
-                               aes(x = LS_Age, y = Unweighted)) +
+RPI.bootstrap.figure <- ggplot(data = filter(RPI.results, Group == "Total Site RPI"), 
+                               aes(x = LS_Age, y = PW_Corrected_NoNekton)) +
   geom_point(aes(shape = Site,  fill = Site),
              size = 8) + 
   scale_shape_manual(values = c(22, 23, 24)) + 
@@ -670,10 +670,10 @@ RPI.bootstrap.figure <- ggplot(data = RPI.results,
     strip.text.x = element_text(size = 22.5, colour = "black"),
     strip.background = element_blank(),
     legend.title = element_blank(),
-    legend.position = c(0.08, 0.1),
+    legend.position = c(0.10, 0.875),
     legend.background = element_rect(
       size = 0.5, linetype = "solid", 
-      colour = "black")) + 
+      colour = "black"))
     facet_wrap(~Group, nrow = 2, ncol = 2)
 
 
@@ -681,7 +681,7 @@ RPI.bootstrap.figure
 
 ggsave(RPI.bootstrap.figure, height = 10, width = 17, dpi = 600,
        limitsize = FALSE, units = "in",
-       filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\UnweightedRPI_CoreGroups_Timeline.jpg")
+       filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\UnweightedRPI_CoreGroups_Timeline_PWcorrected.jpg")
 
 
 
