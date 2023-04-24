@@ -39,6 +39,7 @@ library(gridExtra)
 library(ggfortify)
 library(ggplot2)
 library(ggsci)
+library(ggforce)
 library(viridis)
 library(wesanderson)
 
@@ -647,13 +648,13 @@ RPI.results <- RPI.results %>%
 
 
 
-RPI.bootstrap.figure <- ggplot(data = filter(RPI.results, Group == "Total Site RPI"), 
-                               aes(x = LS_Age, y = PW_Corrected_NoNekton)) +
+RPI.bootstrap.figure <- ggplot(data = filter(RPI.results, Group == "Vegetation"),
+                               aes(x = LS_Age, y = Unweighted)) +
   geom_point(aes(shape = Site,  fill = Site),
-             size = 8) + 
+             size = 10) + 
   scale_shape_manual(values = c(22, 23, 24)) + 
   scale_fill_manual(values = wes_palette("FantasticFox1", n = 3)) +
-  labs(x = "Project Age (yrs)", y = "RPI Score") +
+  labs(x = "Project Age (yrs)", y = "Vegetation RPI Score") +
   theme_bw() +
     scale_x_continuous(expand = c(0,0),
                        limits = c(-0.2, 5),
@@ -666,7 +667,7 @@ RPI.bootstrap.figure <- ggplot(data = filter(RPI.results, Group == "Total Site R
     axis.title.y = element_text(size = 20, colour = "black"),
     axis.text.x = element_text(size = 20, colour = "black"),
     axis.text.y = element_text(size = 20, colour = "black"),
-    legend.text = element_text(size = 15, colour = "black"),
+    legend.text = element_text(size = 20, colour = "black"),
     strip.text.x = element_text(size = 22.5, colour = "black"),
     strip.background = element_blank(),
     legend.title = element_blank(),
@@ -681,7 +682,7 @@ RPI.bootstrap.figure
 
 ggsave(RPI.bootstrap.figure, height = 10, width = 17, dpi = 600,
        limitsize = FALSE, units = "in",
-       filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\UnweightedRPI_CoreGroups_Timeline_PWcorrected.jpg")
+       filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\UnweightedRPI_Vegetation_Timeline_PWcorrected.jpg")
 
 
 
@@ -726,6 +727,7 @@ Veg_sumstats$Transect <- factor(Veg_sumstats$Transect, levels = c("Low Marsh", "
     # chemistry figures overlapping, thus making the graph unreadable. I tried postion_dodge() and jitter() options
     # and combinations, but the error bars and points would not align. I simply manually corrected the x-axis of LS_Age
     # with a two ifelse() statments to shift the sites +/- 0.15
+
 Veg_sumstats <- Veg_sumstats %>%
   mutate(LS_Age = ifelse(Site == "Cutts Cove", LS_Age - 0.15, 
                          ifelse(Site == "Wagon Hill Farm", LS_Age + 0.15, LS_Age)))
@@ -1300,5 +1302,105 @@ Sill.figure
 ggsave(Sill.figure, height = 10, width = 17, dpi = 600,
        limitsize = FALSE, units = "in",
        filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\Sill_Compilation_Figure.jpg")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#___________________________________________________________________________________________________________________
+
+#Chapter 5: Chronosequence Bar Graphs of RPI Scores for each Site
+
+  #In the original thesis and manuscript, the chronosequence of RPI scores was visualized with stacked bar charts
+    #over time. This last chapter in the code recreates the graphs for future reference of reports and publications.
+
+  #For each year, the weighted RPI scores are stacked to the full site RPI score for each year in the restoration timeline
+
+#Step 1 - Read in the results of the Restoration Performance Index
+
+RPI.results <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\RPI_CoreGroups_BootStrap__PWcorrected_March23.csv")
+
+#Step 2 - remove the Total Site RPI scores
+
+RPI.results.sum <- RPI.results %>%
+  filter(Group != 'Total Site RPI') %>%
+    group_by(LS_Age, Group) %>%
+    summarise_all(.funs = mean) %>%
+  ungroup()
+
+
+RPI.chrono <- ggplot(RPI.results.sum, aes(fill = Group, x = LS_Age, y = Weighted)) +
+  geom_bar(position = 'stack', stat = 'identity', colour = "black") +
+  scale_fill_manual(values = c("Nekton" = "darkorange2", "Pore Water Chemistry" = "blue", 
+                               "Vegetation" = "forestgreen")) +
+  scale_y_continuous(expand = c(0,0)) +
+  labs(fill = "Metric", x = "Project Age (yrs)", y = "RPI Score") +
+  coord_cartesian(ylim = c(0,1)) +
+  theme_bw() +
+  theme(
+    axis.title.x = element_text(size = 25), 
+    axis.title.y = element_text(size = 25),
+    axis.text.x = element_text(size = 20, colour = "black"),
+    axis.text.y = element_text(size = 20, colour = "black"),
+    panel.grid.minor.x = element_blank(),
+    legend.text = element_text(size = 20),
+    legend.title = element_blank(),
+    legend.position = c(0.125,0.90),
+    legend.background = element_rect(
+      size = 0.5, linetype = "solid", 
+      colour = "black"))
+  facet_wrap_paginate(~Site, scales = "free",
+                      ncol = 1, nrow = 1, page = 3)
+
+
+RPI.chrono
+
+ggsave(RPI.chrono, height = 10, width = 17, dpi = 600,
+       limitsize = FALSE, units = "in",
+       filename = "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Figures\\Third Resubmission\\RPI_Compilation_Average.jpg")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
