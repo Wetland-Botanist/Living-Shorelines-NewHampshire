@@ -1330,16 +1330,18 @@ ggsave(Sill.figure, height = 10, width = 17, dpi = 600,
 
 RPI.results <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\RPI_CoreGroups_BootStrap__PWcorrected_March23.csv")
 
+glimpse(RPI.results)
+
 #Step 2 - remove the Total Site RPI scores
 
 RPI.results.sum <- RPI.results %>%
-  filter(Group != 'Total Site RPI') %>%
+  filter(Group != 'Total Site RPI', Weighted != "NA") %>%
     group_by(LS_Age, Group) %>%
-    summarise_all(.funs = mean) %>%
+    summarise(Weighted.mean = mean(PW_Corrected_Nekton, na.rm = TRUE)/mean(Metrics)) %>%
   ungroup()
 
 
-RPI.chrono <- ggplot(RPI.results.sum, aes(fill = Group, x = LS_Age, y = Weighted)) +
+RPI.chrono <- ggplot(RPI.results.sum, aes(fill = Group, x = LS_Age, y = Weighted.mean)) +
   geom_bar(position = 'stack', stat = 'identity', colour = "black") +
   scale_fill_manual(values = c("Nekton" = "darkorange2", "Pore Water Chemistry" = "blue", 
                                "Vegetation" = "forestgreen")) +
