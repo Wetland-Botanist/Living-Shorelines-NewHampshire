@@ -1,0 +1,481 @@
+Site,Season,Date,Type,Transect,Plot,Salinity,Redox,pH,Sulfide,Blank,Original Dataset
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,1,,449,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,2,,490,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,3,,392,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,4,,263,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,5,,87,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,6,,464,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,7,,470,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,8,,441,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,9,,479,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,Low,10,,358,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,1,,,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,2,,457,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,3,,307,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,4,,452,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,5,,408,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,6,,468,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,7,,396,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,8,,158,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,9,,476,,,Dry Soil Redox,
+Cutts Cove,2019,10/20/2019,Living Shoreline,High,10,,456,,,Dry Soil Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,1,16,-68,6.88,,Dry Soil Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,2,15,-370.5,6.72,3.4657,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,3,15,-344.2,7.18,0.8998,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,4,14,-355.1,6.77,3.4546,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,5,9,-326,6.75,3.3489,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,6,10,-308.1,6.64,2.5941,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,7,21,-322,6.87,3.519,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,8,18,-326.9,6.69,3.598,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,9,25,-326.5,6.93,3.5033,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,Low,10,25,-299.9,6.77,2.8312,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,1,12,-305.2,6.75,3.1273,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,2,11,-293.4,6.77,1.7834,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,3,10,-281.7,6.72,0.995,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,4,9,-288.6,6.49,2.3205,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,5,9,-269.9,6.34,1.469,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,6,10,-281,6.29,2.4162,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,7,6,-173.3,6.57,0.0662,Porewater Redox,
+Cutts Cove,2019,8/7/2019,Reference,High,8,,,,,No Sample,
+Cutts Cove,2019,8/7/2019,Reference,High,9,,,,,No Sample,
+Cutts Cove,2019,,Reference,High,10,20,-296.5,6.46,0.3287,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,1,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,2,25,9.5,7.43,0.1782,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,3,27,-113,7.51,0.8792,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,4,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,5,26,17.3,7.55,1.397,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,6,28,70.9,7.46,1.6701,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,7,28,28.4,7.5,0.8031,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,8,30,3.6,7.39,1.6629,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,9,29,29.5,7.42,2.0886,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+Cutts Cove,2019,,No Action Control,High,10,,,,,No Sample,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,1,,,,,No Sample,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,2,25,9.5,7.43,0.1782,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,3,27,-113,7.51,0.8792,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,4,,,,,No Sample,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,5,26,17.3,7.55,1.397,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,6,28,70.9,7.46,1.6701,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,7,28,28.4,7.5,0.8031,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,8,30,3.6,7.39,1.6629,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,9,29,29.5,7.42,2.0886,Porewater Redox,
+Cutts Cove,2019,8/7/2019,No Action Control,Low,10,,,,,No Sample,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,1,,488,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,2,,244,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,3,,244,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,4,,302.1,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,5,,227.1,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,6,,436.4,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,7,,244,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,8,,-211,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,9,,244,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,High,10,,443.9,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Living Shoreline,Low,1,29,-31.2,6.66,0.4002,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,2,27,18.6,6.94,0.3965,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,3,28,-45.7,6.54,0.1275,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,4,27,-58.6,6.35,0.3524,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,5,24,-37.9,6.88,1.6806,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,6,27,-22.8,6.57,0.0476,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,7,27,-101,6.5,0.1268,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,8,28,-56.8,7.16,0.3487,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,9,32,-75.6,6.44,0.0605,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Living Shoreline,Low,10,27,-5.6,6.74,0.291,Porewater Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,1,,193.4,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,2,,45.7,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,3,,,,,No Sample,
+North Mill Pond,2019,11/3/2019,Reference,High,4,,388,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,5,,-228,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,6,,260,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,7,,461,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,8,,,,,No Sample,
+North Mill Pond,2019,11/3/2019,Reference,High,9,,-171,,,Dry Soil Redox,
+North Mill Pond,2019,11/3/2019,Reference,High,10,,489,,,Dry Soil Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,1,30,-333.8,6.97,3.06,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,2,28,-297.2,6.91,2.1,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,3,30,-354.4,7.25,3.1225,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,4,30,-372.8,7.77,3.1542,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,5,30,-343.2,6.94,3.3177,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,6,30,-315.1,7.26,2.0788,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,7,30,-351.1,7.42,3.0734,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,8,28,-304.8,6.57,2.231,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,9,21,-133.6,6.93,0.0742,Porewater Redox,
+North Mill Pond,2019,9/4/2019,Reference,Low,10,29,-342.7,6.78,3.1149,Porewater Redox,
+North Mill Pond,2019,,No Action Control,High,1,27,62.4,7.14,0.8074,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,2,26,66.6,7.43,0.4028,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,3,26,17.1,7.31,0.2208,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,4,26,-79.8,7.56,0.4343,Porewater Redox,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,5,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,6,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,7,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,8,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,9,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,,No Action Control,High,10,,,,,No Sample,No Action Control low marsh substituted for values in fake high marsh
+North Mill Pond,2019,9/4/2019,No Action Control,Low,1,27,62.4,7.14,0.8074,Porewater Redox,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,2,26,66.6,7.43,0.4028,Porewater Redox,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,3,26,17.1,7.31,0.2208,Porewater Redox,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,4,26,-79.8,7.56,0.4343,Porewater Redox,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,5,,,,,No Sample,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,6,,,,,No Sample,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,7,,,,,No Sample,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,8,,,,,No Sample,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,9,,,,,No Sample,
+North Mill Pond,2019,9/4/2019,No Action Control,Low,10,,,,,No Sample,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,1,,221,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,2,,97,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,3,,-116,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,4,,177.9,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,5,,208,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,6,,158,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,7,,232,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,8,,164,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,9,,214,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,Low,10,,143,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,1,,267,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,2,,366,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,3,,354,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,4,,176,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,5,,230,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,6,,189,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,7,,436,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,8,,303,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,9,,270,,,Dry Soil Redox,
+Wagon Hill Farm,2019,10/9/2019,Living Shoreline,High,10,,223,,,Dry Soil Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,1,25,-338.6,6.5,3.5594,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,2,29,-320.6,6.7,2.5732,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,3,28,-254,5.87,0.4006,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,4,28,-143.6,6.53,0.0244,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,5,29,-291.4,6.62,3.4225,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,6,30,-319.5,6.75,3.6803,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,7,30,-372.3,6.51,3.69,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,8,30,-279.8,6.73,2.7561,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,9,29,-323.1,7.24,3.6065,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,Low,10,29,-226.1,6.68,0.1225,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,1,25,36.4,6.1,0.0906,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,2,25,-74.1,6.16,0.6756,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,3,26,-312.8,6.76,1.7146,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,4,25,-276.2,6.86,0.4576,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,5,20,-330,6.82,3.6199,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,6,30,-295.6,6.47,3.2445,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,7,27,-237,6.88,0.1782,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,8,34,-274.4,6.56,3.4804,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,9,30,-121.7,6.06,0.2188,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,Reference,High,10,,,,,No Sample,
+Wagon Hill Farm,2019,,No Action Control,Low,1,25,-46,6.93,0.0513,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,2,20,-98.6,6.8,0.0467,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,3,16,-242.9,6.77,1.4631,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,4,24,-270.6,7.39,0.5485,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,5,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,6,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,7,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,8,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,9,20,-22.5,6.62,0.0882,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,,No Action Control,Low,10,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,1,25,-46,6.93,0.0513,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,2,20,-98.6,6.8,0.0467,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,3,16,-242.9,6.77,1.4631,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,4,24,-270.6,7.39,0.5485,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,5,,,,,No Sample,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,6,,,,,No Sample,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,7,,,,,No Sample,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,8,,,,,No Sample,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,9,20,-22.5,6.62,0.0882,Porewater Redox,
+Wagon Hill Farm,2019,8/5/2019,No Action Control,High,10,,,,,No Sample,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,1,,26,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,2,,382,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,3,,354,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,4,,714,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,5,,474,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,6,,144,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,7,,69,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,8,,756,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,9,,454,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,Low,10,,354,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,1,,193.4,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,2,,-42.9,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,3,,650,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,4,,456,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,5,,694,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,6,,369,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,7,,192,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,8,,-28,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,9,,514,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Living Shoreline,High,10,,260,,,Dry Soil Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,1,22,-440.3,6.56,1.3463,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,2,30,-108,6.7,0.541,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,3,23,-364.8,6.59,4.4823,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,4,27,-356.7,6.67,3.647,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,5,35,-118.3,6.22,0.7696,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,6,24,-356.8,7.12,3.1055,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,7,27,-358.1,7.33,4.781,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,8,23,-332.2,6.77,4.207,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,9,32,-315.4,6.49,2.4487,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,Low,10,29,-353.7,7.15,4.1797,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,1,,,,,No Sample,
+Cutts Cove,2020,8/24/2020,Reference,High,2,13,-120.1,6.57,0.4351,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,3,12,-114.8,6.66,0.0356,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,4,26,-238.5,6.66,0.2428,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,5,21,-247.2,6.66,3.8577,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,6,12,-121.8,6.53,4.9273,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,7,38,-215.8,6.5,0.2507,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,8,29,-128.8,6.06,4.9273,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,9,33,-289.8,6.69,0.6998,Porewater Redox,
+Cutts Cove,2020,8/24/2020,Reference,High,10,34,-137.4,7.1,0.3583,Porewater Redox,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,1,,,,,No Sample,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,2,32,-1.4,7.22,0.397,Porewater Redox,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,3,32,-9.4,7.38,0.883,Porewater Redox,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,4,,,,,No Sample,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,5,33,-364.9,7.51,2.2919,Porewater Redox,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,6,31,-58.4,7.6,4.6415,Porewater Redox,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,7,,,,,No Sample,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,8,,,,,No Sample,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,9,,,,,No Sample,
+Cutts Cove,2020,8/25/2020,No Action Control,Low,10,,,,,No Sample,
+Cutts Cove,2020,,No Action Control,High,1,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,2,32,-1.4,7.22,0.397,Porewater Redox,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,3,32,-9.4,7.38,0.883,Porewater Redox,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,4,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,5,33,-364.9,7.51,2.2919,Porewater Redox,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,6,31,-58.4,7.6,4.6415,Porewater Redox,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,7,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,8,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,9,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+Cutts Cove,2020,,No Action Control,High,10,,,,,No Sample,No Action Control low substituted for values in fake high marsh
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,1,31,114.2,6.45,0.1994,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,2,32,127.5,6.77,0.0683,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,3,35,9,6.83,0.4897,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,4,33,-14.5,6.81,0.2675,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,5,30,-7,7.15,0.5018,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,6,32,-17.6,6.55,0.3889,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,7,30,-48.5,6.7,0.6705,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,8,38,-64.3,6.4,0.3345,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,9,37,31.6,6.46,0.8895,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,Low,10,31,10,6.46,0.5092,Porewater Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,1,,-29,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,2,,-29,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,3,,221,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,4,,342,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,5,,382,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,6,,,,,No Sample,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,7,,,,,No Sample,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,8,,-83,,,Dry Soil Redox,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,9,,,,,No Sample,
+North Mill Pond,2020,8/17/2020,Living Shoreline,High,10,,,,,Porewater Redox,"Note - this plot was the only plot to have pore water retried. Based on rules, the results were not considered in the RPI to not bias results based on one sample"
+North Mill Pond,2020,8/18/2020,Reference,Low,1,35,-346.1,6.71,4.4314,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,2,35,-449.9,7.34,4.8406,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,3,33,-372.8,7.26,4.595,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,4,35,-391.4,7.19,4.8828,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,5,33,-356.5,6.93,4.509,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,6,35,-360,6.95,4.509,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,7,35,-356.4,6.91,3.8638,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,8,29,-395,7.4,4.9504,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,9,30,-380.7,6.83,4.5506,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,Low,10,34,-381.4,6.61,4.781,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,1,35,-9.6,6.75,0.2541,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,2,39,-75.5,6.93,0.5033,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,3,,-176,,,Dry Soil Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,4,,-6,,,Dry Soil Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,5,,,,,No Sample,
+North Mill Pond,2020,8/18/2020,Reference,High,6,29,-393.5,6.63,0.5828,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,7,,397,,,Dry Soil Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,8,,280,,,Dry Soil Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,9,31,-161.2,6.84,0.228,Porewater Redox,
+North Mill Pond,2020,8/18/2020,Reference,High,10,31,-81.4,6.71,0.3504,Porewater Redox,
+North Mill Pond,2020,,No Action Control,High,1,27,248,7.14,0.8074,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,2,26,-136,7.43,0.4028,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,3,26,-170,7.31,0.2208,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,4,26,-46,7.56,0.4343,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,5,,-89,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,6,,-64,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,7,,-168,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,8,,-26,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,9,,17,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,High,10,,-139,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,1,27,248,7.14,0.8074,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,2,26,-136,7.43,0.4028,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,3,26,-170,7.31,0.2208,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,4,26,-46,7.56,0.4343,Porewater Redox,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,5,,-89,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,6,,-64,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,7,,-168,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,8,,-26,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,9,,17,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+North Mill Pond,2020,,No Action Control,Low,10,,-139,,,No Sample,"Redox-oxidation is original 2020 dataset, Rest of metrics are substituted from 2019"
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,1,35,237,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,2,,134,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,3,,-50,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,4,,-79,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,5,,440,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,6,,-21,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,7,,108,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,8,,40,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,9,,-85,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,Low,10,,-201,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,1,,179,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,2,,-26,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,3,,354,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,4,,535,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,5,,-117,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,6,,249,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,7,,374,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,8,,534,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,9,,34,,,Dry Soil Redox,
+Wagon Hill Farm,2020,8/20/2020,Living Shoreline,High,10,,,,,No Sample,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,1,32,-42.8,6.51,0.5555,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,2,38,-365,6.79,0.34,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,3,35,-400.9,6.73,1.364,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,4,35,-436,6.82,2.7873,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,5,40,-348.2,6.38,1.7304,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,6,32,-392,6.74,2.2851,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,7,34,-429.7,6.46,3.4437,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,8,37,-373.3,6.8,0.5555,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,9,39,-320.9,5.86,0.5555,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,Low,10,36,-325.6,6.79,1.4227,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,1,34,-190.4,4.92,0.0024,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,2,31,-258.3,5.81,0.155,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,3,35,-263.1,5.65,0.6875,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,4,25,-374.3,6.7,4.4694,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,5,27,-361.8,6.54,3.7402,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,6,30,-364.7,6.44,4.1022,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,7,35,-246.5,6.46,0.0845,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,8,33,-339.5,6.46,1.547,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,9,35,-225.9,6.58,0.0105,Porewater Redox,
+Wagon Hill Farm,2020,8/19/2020,Reference,High,10,34,-330.2,6.47,1.5987,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,1,32,-17.2,6.29,0.981,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,2,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,3,34,-5.8,6.27,0.1327,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,4,25,-26.7,6.37,0.3506,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,5,27,-335.7,6.07,0.5234,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,6,37,-65.6,6.19,5.5544,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,7,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,8,28,-125.6,6.2,0.1155,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,9,30,-76.5,6.08,0.3024,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,Low,10,27,-45.7,6.15,1.4784,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,1,32,-17.2,6.29,0.981,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,2,,,,,No Sample,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,3,34,-5.8,6.27,0.1327,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,4,25,-26.7,6.37,0.3506,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,5,27,-335.7,6.07,0.5234,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,6,37,-65.6,6.19,5.5544,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,7,,,,,No Sample,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,8,28,-125.6,6.2,0.1155,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,9,30,-76.5,6.08,0.3024,Porewater Redox,
+Wagon Hill Farm,2020,8/20/2020,No Action Control,High,10,27,-45.7,6.15,1.4784,Porewater Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,1,,66,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,2,,428,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,3,,459,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,4,,452,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,5,,370,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,6,,256,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,7,,-18,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,8,,411,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,9,,101,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,Low,10,,497,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,1,,483,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,2,,287,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,3,,198,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,4,,48,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,5,,130,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,6,,314,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,7,,174,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,8,,369,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,9,,427,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Living Shoreline,High,10,,2,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,1,,-151,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,2,,4,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,3,,-211,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,4,,-197,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,5,,-194,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,6,,-142,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,7,,14,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,8,,12,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,9,,-112,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,Low,10,,-135,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,1,,58,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,2,,-85,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,3,,-115,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,4,,-188,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,5,,17,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,6,,-159,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,7,,316,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,8,,-52,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,9,,-83,,,Dry Soil Redox,
+Cutts Cove,2021,8/18/2021,Reference,High,10,,-193,,,Dry Soil Redox,
+Cutts Cove,2021,,No Action Control,High,1,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,2,32,-1.4,7.22,0.397,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,3,32,-9.4,7.38,0.883,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,4,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,5,33,-364.9,7.51,2.2919,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,6,31,-58.4,7.6,4.6415,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,7,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,8,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,9,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,High,10,,,,,No Sample,No Action Control High substituted for values in fake low marsh
+Cutts Cove,2021,,No Action Control,Low,1,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,2,32,-1.4,7.22,0.397,Porewater Redox,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,3,32,-9.4,7.38,0.883,Porewater Redox,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,4,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,5,33,-364.9,7.51,2.2919,Porewater Redox,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,6,31,-58.4,7.6,4.6415,Porewater Redox,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,7,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,8,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,9,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Cutts Cove,2021,,No Action Control,Low,10,,,,,No Sample,Porewater data from 2020 Cutts Cove No Action Control
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,1,25,-178,6.6,4.0028,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,2,26.2,-293,7.2,0.4411,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,3,19,-227,7,0.8013,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,4,30.2,-227,6.9,0.1745,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,5,24.5,-166,7,0.4268,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,6,28,-190,6.6,1.5651,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,7,28.6,-157,6.9,0.0607,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,8,28,-120,6.7,0.5681,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,9,29.1,-182,6.8,0.2065,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,Low,10,32.5,-187,6.8,0.338,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,1,25,-142,6,1.2635,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,2,26.5,-180,5.5,0.4284,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,3,20,-100,5.8,0.7044,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,4,11.2,-111,6,0.4598,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,5,10.7,12,5.7,0.4946,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,6,10,-77,6,0.9212,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,7,,,,,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,8,,,,,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,9,11.7,-125,5.7,0.536,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Living Shoreline,High,10,,-229,5,0.9703,Porewater Redox,
+Wagon Hill Farm,2022,,No Action Control,Low,1,30.7,-147,5.7,0.0683,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,2,30.2,-171,6.1,0.0013,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,3,22.4,-176,6.1,0.1646,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,4,29.9,-210,5.9,0.0452,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,5,26,-186,6.4,0.1387,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,6,30.6,-181,5.7,0.1834,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,7,31.2,-235,6,0.0563,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,8,31.4,-295,6.5,0.5539,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,9,35.3,-58,6.3,0.172,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,,No Action Control,Low,10,33.1,-35,5.6,0.1814,Porewater Redox,No Action Control High substituted for values in fake low marsh
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,1,30.7,-147,5.7,0.0683,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,2,30.2,-171,6.1,0.0013,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,3,22.4,-176,6.1,0.1646,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,4,29.9,-210,5.9,0.0452,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,5,26,-186,6.4,0.1387,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,6,30.6,-181,5.7,0.1834,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,7,31.2,-235,6,0.0563,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,8,31.4,-295,6.5,0.5539,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,9,35.3,-58,6.3,0.172,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,No Action Control,High,10,33.1,-35,5.6,0.1814,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,1,31.3,-215,6,0.0085,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,2,31.6,-223,6.3,0.1572,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,3,33.1,-367,7,3.433,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,4,29.5,-305,6.5,1.4867,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,5,32.4,-324,6.6,2.3393,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,6,34,-330,6.9,3.1081,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,7,39.4,-309,6.7,0.3421,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,8,33.4,-384,6.5,0.2089,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,9,24.6,-280,6.5,0.117,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,High,10,35.6,-310,6.8,0.7207,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,1,34,-325,7,2.8378,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,2,35,-347,7.1,3.3817,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,3,24.4,-313,6.8,0.4437,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,4,30.3,-335,6.9,3.2613,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,5,30.4,-319,6.8,2.9915,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,6,29.4,-330,6.8,2.5622,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,7,29.8,-319,6.4,0.8138,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,8,28.6,-309,6.7,1.5882,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,9,33.7,-318,6.7,2.781,Porewater Redox,
+Wagon Hill Farm,2022,9/26/2022,Reference,Low,10,29.6,-306,6.2,0.9576,Porewater Redox,
