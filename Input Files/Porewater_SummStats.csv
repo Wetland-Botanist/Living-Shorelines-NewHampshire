@@ -1,0 +1,40 @@
+,Site,Season,Type,Transect,LS_Age,Salinity.m,Salinity.n,Salinity.se,Redox.m,Redox.n,Redox.se,pH.m,pH.n,pH.se,Sulfide.m,Sulfide.n,Sulfide.se
+1,Cutts Cove,2019,Living Shoreline,High Marsh,1,,0,,397.6,9,34.7,,0,,,0,
+2,Cutts Cove,2019,Living Shoreline,Low Marsh,1,,0,,389.3,10,40.1,,0,,,0,
+3,Cutts Cove,2019,No Action Control,Low Marsh,1,27.6,7,0.6,6.6,7,21.6,7.5,7,0,1.2,7,0.2
+4,Cutts Cove,2019,Reference,High Marsh,1,10.9,8,1.4,-273.7,8,14.8,6.5,8,0.1,1.6,8,0.4
+5,Cutts Cove,2019,Reference,Low Marsh,1,16.8,10,1.7,-304.7,10,27.1,6.8,10,0,3,9,0.3
+6,Cutts Cove,2020,Living Shoreline,High Marsh,2,,0,,325.8,10,81.4,,0,,,0,
+7,Cutts Cove,2020,Living Shoreline,Low Marsh,2,,0,,372.7,10,77.9,,0,,,0,
+8,Cutts Cove,2020,No Action Control,Low Marsh,2,32,4,0.4,-108.5,4,86.4,7.4,4,0.1,2.1,4,1
+9,Cutts Cove,2020,Reference,High Marsh,2,24.2,9,3.4,-179.4,9,22.6,6.6,9,0.1,1.7,9,0.7
+10,Cutts Cove,2020,Reference,Low Marsh,2,27.2,10,1.4,-310.4,10,34.4,6.8,10,0.1,3,10,0.5
+11,Cutts Cove,2021,Living Shoreline,High Marsh,3,,0,,243.2,10,50.5,,0,,,0,
+12,Cutts Cove,2021,Living Shoreline,Low Marsh,3,,0,,302.2,10,59.5,,0,,,0,
+13,Cutts Cove,2021,Reference,High Marsh,3,,0,,-48.4,10,48.1,,0,,,0,
+14,Cutts Cove,2021,Reference,Low Marsh,3,,0,,-111.2,10,28.2,,0,,,0,
+15,North Mill Pond,2019,Living Shoreline,High Marsh,3,,0,,266.2,10,61.7,,0,,,0,
+16,North Mill Pond,2019,Living Shoreline,Low Marsh,3,27.6,10,0.6,-41.7,10,10.9,6.7,10,0.1,0.4,10,0.2
+17,North Mill Pond,2019,No Action Control,Low Marsh,3,26.2,4,0.2,16.6,4,34,7.4,4,0.1,0.5,4,0.1
+18,North Mill Pond,2019,Reference,High Marsh,3,,0,,179.8,8,97.5,,0,,,0,
+19,North Mill Pond,2019,Reference,Low Marsh,3,28.6,10,0.9,-314.9,10,21.5,7.1,10,0.1,2.5,10,0.3
+20,North Mill Pond,2020,Living Shoreline,High Marsh,4,30,1,,65.5,7,98.8,7.3,1,,4.6,1,
+21,North Mill Pond,2020,Living Shoreline,Low Marsh,4,32.9,10,0.9,14,10,19.9,6.7,10,0.1,0.4,10,0.1
+22,North Mill Pond,2020,No Action Control,Low Marsh,4,,0,,-57.3,10,39.3,,0,,,0,
+23,North Mill Pond,2020,Reference,High Marsh,4,33,5,1.8,-25.1,9,79.5,6.8,5,0.1,0.4,5,0.1
+24,North Mill Pond,2020,Reference,Low Marsh,4,33.4,10,0.7,-379,10,9.4,7,10,0.1,4.6,10,0.1
+40,Wagon Hill Farm,2019,Living Shoreline,High Marsh,0,,0,,281.4,10,26.4,,0,,,0,
+41,Wagon Hill Farm,2019,Living Shoreline,Low Marsh,0,,0,,149.9,10,32.3,,0,,,0,
+42,Wagon Hill Farm,2019,No Action Control,High Marsh,0,21,5,1.6,-136.1,5,51,6.9,5,0.1,0.4,5,0.3
+43,Wagon Hill Farm,2019,Reference,High Marsh,0,26.9,9,1.3,-209.5,9,42.3,6.5,9,0.1,1.5,9,0.5
+44,Wagon Hill Farm,2019,Reference,Low Marsh,0,28.7,10,0.5,-286.9,10,20.8,6.6,10,0.1,2.4,10,0.5
+25,Wagon Hill Farm,2020,Living Shoreline,High Marsh,1,,0,,235.1,9,78.9,,0,,,0,
+26,Wagon Hill Farm,2020,Living Shoreline,Low Marsh,1,35,1,,52.3,10,58.7,,0,,,0,
+27,Wagon Hill Farm,2020,No Action Control,High Marsh,1,30,8,1.4,-87.3,8,38,6.2,8,0,1.2,8,0.6
+28,Wagon Hill Farm,2020,Reference,High Marsh,1,31.9,10,1.1,-295.5,10,20.9,6.2,10,0.2,1.6,10,0.6
+29,Wagon Hill Farm,2020,Reference,Low Marsh,1,35.8,10,0.9,-343.4,10,35.6,6.6,10,0.1,1.5,10,0.3
+35,Wagon Hill Farm,2022,Living Shoreline,High Marsh,3,16.4,7,2.7,-119,8,25.3,5.7,8,0.1,0.7,8,0.1
+36,Wagon Hill Farm,2022,Living Shoreline,Low Marsh,3,27.1,10,1.2,-192.7,10,14.9,6.8,10,0.1,0.9,10,0.4
+37,Wagon Hill Farm,2022,No Action Control,High Marsh,3,30.1,10,1.1,-169.4,10,24.3,6,10,0.1,0.2,10,0
+38,Wagon Hill Farm,2022,Reference,High Marsh,3,32.5,10,1.2,-304.7,10,17.2,6.6,10,0.1,1.2,10,0.4
+39,Wagon Hill Farm,2022,Reference,Low Marsh,3,30.5,10,1,-322.1,10,4,6.7,10,0.1,2.2,10,0.3
