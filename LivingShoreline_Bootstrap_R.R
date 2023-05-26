@@ -1,5 +1,6 @@
 #Bootstrapping Analysis of Living Shoreline RPI Metrics (Seacoast of New Hampshire)
-#Author: Grant McKown, Research Technician of Coastal Habitat Restoration Team (CHaRT), jgrantmck@gmail.com
+#Author: Grant McKown, Research Associate of Coastal Habitat Restoration Team (CHaRT), 
+#Contact: james.mckown@unh.edu | jgrantmck@gmail.com
 
 #Created: June 2022
 
@@ -14,10 +15,10 @@
 
 
 #R-script is broken down into 3 Chapters with Pages and Tasks:
-  # 1) Code Set Up
-  # 2) Data Input and Preparation
-  # 3) Bootstrap Analysis of Monitoring Data and RPI Calculations
-  # 4) Graphing the RPI Analysis for Publication
+  # Chapter 1) Code Set Up
+  # Chapter 2) Data Input and Preparation
+  # Chapter 3) Bootstrap Analysis of Monitoring Data and RPI Calculations
+  # Chapter 4) Graphing the RPI Analysis for Publication
 
 #-----------------------------------------------------------------------------------------------------------
 
@@ -75,12 +76,12 @@ set.seed(2023)
     #Vegetation, Pore water Chemistry, and Nekton
 
   #The core groups are broken down into individual metrics:
-    # Vegetation - Halophyte Cover, and Halophyte Species Richness
-    # Pore water Chemistry - Salinity, Reduction - Oxidation Potential, pH, and Sulfide Content
-    # Nekton - Mummichog Trap Catch Rate, Adult Mummichog Length
+      # Vegetation - Halophyte Cover, and Halophyte Species Richness
+      # Pore water Chemistry - Salinity, Reduction - Oxidation Potential, pH, and Sulfide Content
+      # Nekton - Mummichog Trap Catch Rate, Adult Mummichog Length
 
   # Individual metrics for Vegetation and Pore water chemistry are monitored and calculated for both the
-    # the low and high marsh for the three treatment shorelines: Living Shoreline, Reference, and No Action.
+   # the low and high marsh for the three treatment shorelines: Living Shoreline, Reference, and No Action.
    # Nekton was monitored and calculated for the marsh zones that are common across all three treatments:
       # Wagon Hill Farm - High Marsh
       # Cutts Cove - Low Marsh
@@ -88,8 +89,8 @@ set.seed(2023)
 
   # Sites were monitored at different field seasons (and project ages):
     # Wagon Hill Farm - 2019 (0 year), 2020 (1 years), 2022 (3 years)
-    # Cutts Cove - 2019 (1 year), 2020 (2 years), 2021 (3 years)
-    # North Mill Pond - 2019 (3 years), 2020 (4 years)
+     # Cutts Cove - 2019 (1 year), 2020 (2 years), 2021 (3 years)
+     # North Mill Pond - 2019 (3 years), 2020 (4 years)
 
 
 
@@ -97,7 +98,8 @@ set.seed(2023)
 #Page 1 - Setting the Initial Data Parameters of Site & Season
 
   # To minimize complex code (in exchange for long, redundant code), bootstrapping and calculation of the
-    #Restoration Performance Index will be conducted for each Site, Year, and Marsh Zone
+    # Restoration Performance Index will be conducted for each Site, Year, and Marsh Zone individually.
+    # A csv file with all of the metric-level RPI scores is output for each site.
 
   # Additionally, due to site or field season - specific conditions, unique pieces of code are required to
     # run for individual site - year combinations. Those small details are presented in the code as 
@@ -124,10 +126,14 @@ MarshZone = "High"
 #Page 2 - Loading Living Shoreline Data Sets
   
   #The data sets for the data is divided between the three core groups of the RPI analysis: 
-    #Vegetation, Pore water Chemistry, and Nekton
+    # 1) Vegetation, 
+    # 2) Pore water Chemistry 
+    # 3) Nekton
 
   # Each data set will be loaded, replace any blanks with NAs, and then subset to the designated
-    # Site, Year, and Marsh Zone
+    # 1) Site
+    # 2) Year 
+    # 3) Marsh Zone
 
 
 
@@ -165,6 +171,11 @@ rm(Veg)
     # Be sure to read in the "modified" pore water data set, since it was modified with the appropriate
       # data set to make the RPI function work
 
+    # The "modified" data set adds corresponding low or high marsh values when the low or high marsh is not present
+      # for the no action control shoreline. For example, at Wagon Hill Farm, there is not a no action control low marsh
+      # due to erosion. In the "modified" data set, the high marsh data set for each year is copied and relabelled
+      # as high marsh to allow for RPI calculations to be completed. 
+
 
 Porewater <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\Porewater_BaseData_2022_modified.csv",
                    na.strings = c("", "NA"))
@@ -184,14 +195,13 @@ rm(Porewater)
 
 #Step 3 - Nekton Minnow Trap Data set
     #Data structure notes:
-      # If no mummichogs were caught in the trap, the trap catch value 
-          # was assigned zero
-      # If no mummichogs were caught in the trap, the adult length value was assigned NA 
+      # If no mummichogs were caught in the trap, the trap catch value was assigned zero
+      # If no mummichogs were caught in the trap, the adult length value was assigned 45 mm (cut off for adult and 
+        # juvenile mummichogs) beforehand in Microsoft Excel
 
   #Read the nekton Data set of all living shoreline sites
 
-Nekton <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\Nekton_BaseData_2022_modified.csv",
-                       na.strings = c("", "NA"))
+Nekton <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Input CSVs\\Nekton_BaseData_2022_modified.csv")
 
 Nekton <- as.data.frame(Nekton)
 
@@ -224,8 +234,8 @@ rm(Nekton)
 
 #Step 1 - Creation and Formatting of the Mean RPI Table
   #Using the dplyr pipe functions, a 1 x 10 Table is created with each column renamed to the proper metric
-    #Next, the proper Marsh Zone and Site names are inputed into the first two cells
-    #Lastly, outside3 of the pipe, the metric columns are re-formatted to numerics
+    #Next, the proper Marsh Zone and Site names are inputted into the first two cells
+    #Lastly, outside3 of the pipe, the metric columns are re-formatted to numerical
 
 
 RPI_Final <- data.frame(matrix(nrow = 1, ncol = 10)) %>%
@@ -274,7 +284,7 @@ glimpse(RPI_CI)
 #   Pore water - Salinity, pH, Reduction-Oxidation Potential, and Sulfide Concentration
 #   Nekton - Trap Catch Rate of Mummichogs, Adult length of Mummichogs
 
-#To accomplish this, I used Dr. Isdell's Bootstrap Code to calculate the RPI value of each metric for each Marsh Zone
+#To accomplish this, I adopted Dr. Isdell's Bootstrap Code to calculate the RPI value of each metric for each Marsh Zone
 #   (1) Low Marsh
 #   (2) High Marsh
 
@@ -286,37 +296,45 @@ glimpse(RPI_CI)
 #   (2) Standard Error of the RPI Score
 
 
-#Data Structure Note:
+#Data Structure and Code Notes (PLEASE READ AND UNDERSTAND FULLY):
   # For code to work, a value for a metric needs to be reported for every treatment shoreline
-    # Vegetation - there is no need to modify the data, since all data have values or Zeroes 
-                    # (absence of halophyte vegetation)
     
-    #Nekton - Nekton monitoring was not conducted in 2019 for all sites and should be skipped for 2019 season.
+  # Defensible and ecologically appropriate adjustments were made for certain aspects of the data. IT should be
+      # noted that hese adjustments simply arose from the realities of restoring salt marshes in urban settings, where
+      # traditional no action controls do not exist with both low and high marshes present. 
+    
+  # All of the potential issues within the data set are presented in full with solutions for the user in running the code.
+      # certain solutions may have already been dealt with in the data structure in Microsoft Excel. Others may require
+      # the user to skip a certain metric within the code, essentially manually assigning a zero to the RPI score.
+
+
+  # Vegetation - there is no need to modify the data, since all data have values or zeroes
+    
+  #Nekton - Nekton monitoring was not conducted in 2019 for all sites and should be skipped for 2019 season.
                     # Nekton monitoring in the no action control of Cutts Cove 2020 was not completed.
                     # Solution: 2019 no action control data substituted in 2020 for RPI analysis of Cutts Cove
 
-    # Pore water - there is a need to modify the data (ahead of this code) for run the code uniquely. 
-                    #The issues for pore water in this study are four - fold:
+  # Pore water - there is a need to modify the data (ahead of this code) for run the code uniquely. 
+                  #The issues for pore water in this study are four - fold:
                   
-                    # First, pore water could not be obtained at all from living shoreline sites:
+                 # First, pore water could not be obtained at all from living shoreline sites:
                       # Wagon Hill Farm - 2019, 2020 (both marsh zones)
                       # Cutts Cove - 2019, 2020 (both marshes)
                       # North Mill Pond - 2019 and 2020 (high marsh only)
                       # Solution: Do not run the RPI calculator for Salinity, pH, and Sulfides for the 
-                                # above sites and years. They are assigned a zero.
-                                # Do run the RPI calculator for Redox!
+                                # above sites and years. They are assigned a zero. Do run the RPI calculator for Redox!
                   
                   # Second, pore water was not monitored for Wagon Hill Farm of 2021. Only soil redox was
-                      # was obtained. 
+                      # was obtained, due to changes in project monitoring requirements. 
                       # Solution: Do not run the RPI calculator for Salinity, pH, and Sulfides. Only run the  
                                   # RPI calculator for Redox. The other metrics will be ignored in site - year RPI.
 
                   #Third, for Wagon Hill Farm 2022 and North Mill Pond 2020, pore water was obtained in the 
                       # high marsh reference and living shoreline, but not in the no action control shoreline
-                      # since the no action control shoreline does not exist! Without a no action control 
-                      # shoreline, the RPI can not be calculated.
+                      # since a high marsh of no action control shoreline does not exist! 
+                      # Without a no action control shoreline, the RPI can not be calculated.
                       # Solution: The low marsh pore water values of no action control are substituted for the high marsh
-                                  # analyses for each site. 
+                                  # analyses for each site. Completed in Microsoft Excel before R code. 
 
                   # Substitution of data will be completed prior to R analysis. Manual assignment of RPI metric
                       # values will be completed after R analysis.
@@ -630,6 +648,11 @@ rm(Nekton_subset, PW_subset, Veg_subset, RPI_CI, RPI_Final, rpi.bootstrap)
 #Chapter 3: Graph RPI Results of Bootstrap Analysis
   #In the original manuscript submission, the original RPI analysis was graphed as a
   # chronosequence of all the sites together as well as each site separately
+
+  # After all of the RPI analyses were run for each Site - Year - Marsh Zone combination, they were compiled in Microsfot
+    # Excel in the 'RPI_CoreGroups_BootStrap__PWcorrected_March23.csv'. 
+
+  # Chapter 3 analysis utilizes the newly compiled RPI results. 
 
 
 #Page 1 - Chronosequence of unweighted RPI scores from the Bootstrap Analysis
