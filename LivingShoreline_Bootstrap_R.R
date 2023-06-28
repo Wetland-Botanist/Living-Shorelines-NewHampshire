@@ -662,6 +662,8 @@ RPI.results <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines
 
 
 #Page 2 - Graph the Bootstrap Results of the Analysis
+  # To save space within the code, I simply created one ggplot() code.
+  # Simply replace the Group == in the first line of code and file name in the ggsave() function
 
 RPI.results$Group <- factor(RPI.results$Group, levels = c("Pore Water Chemistry", "Vegetation", "Nekton", "Total Site RPI"))
 
@@ -672,7 +674,7 @@ RPI.results <- RPI.results %>%
 
 
 RPI.bootstrap.figure <- ggplot(data = filter(RPI.results, Group == "Vegetation"),
-                               aes(x = LS_Age, y = Unweighted)) +
+                               aes(x = LS_Age, y = PW_Corrected_Nekton)) +
   geom_point(aes(shape = Site,  fill = Site),
              size = 10) + 
   scale_shape_manual(values = c(22, 23, 24)) + 
@@ -728,9 +730,15 @@ Veg_sumstats <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shoreline
 
 Veg_sumstats <- as.data.frame(Veg_sumstats)
 
+
 PW_sumstats <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Statistics\\Porewater_SummStats.csv")
 
+PW_sumstats <- as.data.frame(PW_sumstats)
+
+
 Nekton_sumstats <- read.csv("E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Statistics\\Nekton_SummStats.csv")
+
+Nekton_sumstats <- as.data.frame(Nekton_sumstats)
 
 
 # Step 1 - Halophyte Cover point graph
@@ -811,9 +819,9 @@ Veg_15m_Table <- Veg_15m %>%
 
 write.csv(Veg_15m_Table, "E:\\Coastal Habitat Restoration Team\\Living Shorelines - New Hampshire\\Data Analysis\\Manuscript\\Statistics\\Veg_15m_SummStast.csv")
 
+
+
 #Step 3 - Reduction Oxidation Graph of Pore water chemistry
-
-
 
 PW_sumstats <- PW_sumstats %>%
   filter(Type != "No Action Control")
